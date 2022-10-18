@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-xo": "^0.42.0",
+    "eslint-config-xo-typescript": "^0.53.0",
+    "eslint-plugin-react": "^7.31.10",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
